@@ -14,7 +14,7 @@ desc 'Generate Yard doc'
 YARD::Rake::YardocTask.new do |t|
   t.files   = ['lib/**/*.rb']
   t.options = [
-    '--title',   'gcalMapper',
+    '--title',   'PushToMobile',
     '--markup',  'markdown',
     '--charset', 'UTF-8',
     '--file',    'LICENSE',
